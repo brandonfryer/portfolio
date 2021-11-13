@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from '../styles/Navbar.module.css'
 
 const Navbar = () =>  {
@@ -42,7 +43,13 @@ const Navbar = () =>  {
                 </ul>
             </div>
             <div className={styles.center}>
-                <h1>BMF</h1>
+                <Link href="/">
+                    <a>
+                        <span className={styles.logo}>
+                            <Image src="/icosahedron-wht.png" width={60} height={60} />
+                        </span>
+                    </a>
+                </Link>
             </div>
             <div className={styles.right}>
                 <button className={isOpen === false ? 

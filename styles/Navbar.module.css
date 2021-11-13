@@ -32,10 +32,8 @@
     width: 40%;
 }
 
-.center h1 {
-    color: #fff;
-    font-size: 20pt;
-    font-family: "Fredericka the Great";
+.logo {
+    display: flex;
 }
 
 .hamburger {
@@ -53,7 +51,7 @@
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #fff;
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 }
 
 .navmenu {
@@ -71,8 +69,8 @@
 .navlink {
     margin: 0 10px;
     color: #fff;
-    font-family: "Fredericka the Great";
-    letter-spacing: 0rem;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
 }
 
 .navlink:hover {
