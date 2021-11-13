@@ -10,7 +10,7 @@ In the PORTFOLIO section, you will be able to navigate these projects more freel
 
 In the ABOUT section, you can learn a bit about who I am, as well as, see some of my favorite family photos.
 
-Lastly, a contact page to get in touch!"
+Lastly, a CONTACT page to get in touch!"
 
 Thanks for reading me.
 
