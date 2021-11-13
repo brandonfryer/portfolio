@@ -1,0 +1,42 @@
+.section {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.label {
+    display: block;
+    padding: 15px 0 5px 0;
+}
+
+.name,
+.email {
+    width: 300px;
+}
+
+.message {
+    display: block;
+    margin-bottom: 10px;
+    width: 302px;
+    resize: none;
+}
+
+.button {
+    width: 75px;
+    color: #fff;
+    background-color: #979695;
+    align-self: center;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #797877;
+    background: #979695;
+}
