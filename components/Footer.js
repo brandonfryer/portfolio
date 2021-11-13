@@ -1,19 +1,18 @@
 import Image from "next/image";
+import Link from "next/link"
 import styles from "../styles/Footer.module.css"
 
 const Footer = () => {
     return ( 
         <footer className={styles.footer}>
-            <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            >
-            Powered by{' '}
-            <span className={styles.logo}>
-                <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Link href="/">
+            <a>
+            Powered by Yo Momma{' '}
+            <span className={styles.icon}>
+                <Image  src="/icosahedron.png" width={20} height={20} />
             </span>
             </a>
+            </Link>
         </footer>
      );
 }
