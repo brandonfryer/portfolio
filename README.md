@@ -4,7 +4,7 @@ I am a README.
 
 Plans for the app are as follows:
 
-The HOME page will be a working chronological blog containing posts and links to my project.
+The HOME page will be a working chronological blog containing posts and links to my projects.
 
 In the PORTFOLIO section, you will be able to navigate these projects more freely.
 
