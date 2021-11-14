@@ -11,32 +11,32 @@ const Navbar = () =>  {
     return (
         <nav className={styles.nav}>
             <div className={styles.left}>
-                <ul className={isOpen === false ? styles.navmenu : styles.navmenu +' '+ styles.active}>
+                <ul className={isOpen === false ? styles.navmenu : styles.navmenu + ' ' + styles.active}>
                     <li className={styles.navitem}>
                         <Link href='/'>
-                            <a className={isOpen === false ? 
-                                styles.navlink : styles.navlink+' '+styles.active}
+                            <a className={isOpen === false ? styles.navlink : 
+                                styles.navlink + ' ' + styles.active}
                                 onClick={openMenu}>HOME</a>
                         </Link>
                     </li>
                     <li className={styles.navitem}>
                         <Link href='/about'>
-                            <a className={isOpen === false ? 
-                                styles.navlink : styles.navlink+' '+styles.active}
+                            <a className={isOpen === false ? styles.navlink : 
+                                styles.navlink + ' ' + styles.active}
                                 onClick={openMenu}>ABOUT</a>
                         </Link>
                     </li>
                     <li className={styles.navitem}>
                         <Link href='/portfolio'>
-                            <a className={isOpen === false ? 
-                                styles.navlink : styles.navlink+' '+styles.active}
+                            <a className={isOpen === false ? styles.navlink : 
+                                styles.navlink + ' ' + styles.active}
                                 onClick={openMenu}>PORTFOLIO</a>
                         </Link>
                     </li>
                     <li className={styles.navitem}>
                         <Link href='/contact'>
-                            <a className={isOpen === false ? 
-                                styles.navlink : styles.navlink+' '+styles.active}
+                            <a className={isOpen === false ? styles.navlink : 
+                                styles.navlink + ' ' + styles.active}
                                 onClick={openMenu}>CONTACT</a>
                         </Link>
                     </li>
@@ -52,8 +52,8 @@ const Navbar = () =>  {
                 </Link>
             </div>
             <div className={styles.right}>
-                <button className={isOpen === false ? 
-                    styles.hamburger : styles.hamburger+' '+styles.active}
+                <button className={isOpen === false ? styles.hamburger 
+                    : styles.hamburger + ' ' + styles.active}
                     onClick={openMenu}>
                     <span className={styles.bar}></span>
                     <span className={styles.bar}></span>
