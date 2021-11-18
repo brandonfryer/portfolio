@@ -9,7 +9,6 @@ main {
     display: flex;
     justify-content: center;
     width: auto;
-    padding: 20px;
     background-image: url("../public/double-bubble-outline.png");
     overflow: hidden;
 }
@@ -23,8 +22,8 @@ li {
     list-style: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     main {
-        padding-top: 90px;
+        padding-top: 70px;
     }
 }

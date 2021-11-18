@@ -9,7 +9,7 @@ export default function Contact() {
                     type="text"
                     name="name"
                     className={styles.name}
-                    id="input-name"
+                    id="inputName"
                     oninput="checkInput()"
                 />
                 <label className={styles.label}>Mail</label>
@@ -17,7 +17,7 @@ export default function Contact() {
                     type="text"
                     name="email"
                     className={styles.email}
-                    id="input-mail"
+                    id="inputMail"
                     oninput="checkInput()"
                 />
                 <label className={styles.label}>Your Message</label>
@@ -26,7 +26,7 @@ export default function Contact() {
                     cols="30"
                     rows="10"
                     className={styles.message}
-                    id="input-message"
+                    id="inputMessage"
                     oninput="checkInput()"
                 ></textarea>
                 <button type="submit" className={styles.button} disabled>
