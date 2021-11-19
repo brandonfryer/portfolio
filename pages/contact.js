@@ -10,7 +10,7 @@ export default function Contact() {
                     name="name"
                     className={styles.name}
                     id="inputName"
-                    oninput="checkInput()"
+                    onInput="checkInput()"
                 />
                 <label className={styles.label}>Mail</label>
                 <input
@@ -18,7 +18,7 @@ export default function Contact() {
                     name="email"
                     className={styles.email}
                     id="inputMail"
-                    oninput="checkInput()"
+                    onInput="checkInput()"
                 />
                 <label className={styles.label}>Your Message</label>
                 <textarea
@@ -27,7 +27,7 @@ export default function Contact() {
                     rows="10"
                     className={styles.message}
                     id="inputMessage"
-                    oninput="checkInput()"
+                    onInput="checkInput()"
                 ></textarea>
                 <button type="submit" className={styles.button} disabled>
                     Submit
