@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import UseEffect from '../components/hooks/useEffect';
-import UseState from '../components/hooks/useState';
+import UseEffect from '../hooks/useEffect';
+import UseState from '../hooks/useState.jsx_';
 import styles from '../styles/Hooks.module.css';
 
 function Hooks() {
