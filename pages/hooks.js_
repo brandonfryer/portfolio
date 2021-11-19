@@ -1,0 +1,17 @@
+import { useState } from 'react';
+import UseEffect from '../hooks/useEffect';
+import UseState from '../hooks/useState.jsx_';
+import styles from '../styles/Hooks.module.css';
+
+function Hooks() {
+    return (
+        <div className={styles.container}>
+            <h1>React Hook Lessons</h1>
+            <UseState />
+            <UseEffect />
+        </div>
+     );
+}
+ 
+export default Hooks;
+

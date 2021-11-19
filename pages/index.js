@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -10,29 +11,33 @@ export default function Home() {
         <link rel="icon" href="/icosahedron.png" />
       </Head>
       <div className={styles.postSection}>
-          <h2>Posts</h2>
-          <div className={styles.postWrapper}>
-              <div className={styles.thumbnail}>
-                <span className={styles.date}>11/06/21</span>
-              </div>
-              <h3>This is My First Post!</h3>
-              <span className={styles.blurb}>
-                  This is a blurb about my first post! It is super
-                  awesome. Check it out!
-              </span>
-              <a href="/">Read More</a>
+        <h2>Posts</h2>
+        <div className={styles.postWrapper}>
+          <div className={styles.thumbnail}>
+            <span className={styles.date}>11/06/21</span>
           </div>
-          <div className={styles.postWrapper}>
-              <div className={styles.thumbnail}>
-                <span className={styles.date}>11/06/21</span>
-              </div>
-              <h3>This is My Second Post!</h3>
-              <span className={styles.blurb}>
-                  This is a blurb about my second post! It's even more
-                  awesome than the first. Check it out!
-              </span>
-              <a href="/">Read More</a>
+          <h3>This is My First Post!</h3>
+          <span className={styles.blurb}>
+            This is a blurb about my first post! It is super
+            awesome. Check it out!
+          </span>
+          <Link href="/">
+            <a>Read More</a>
+          </Link>
+        </div>
+        <div className={styles.postWrapper}>
+          <div className={styles.thumbnail}>
+            <span className={styles.date}>11/06/21</span>
           </div>
+          <h3>This is My Second Post!</h3>
+          <span className={styles.blurb}>
+            This is a blurb about my second post! It&rsquo;s even more
+            awesome than the first. Check it out!
+          </span>
+          <Link href="/">
+            <a>Read More</a>
+          </Link>
+        </div>
       </div>
     </>
   )
